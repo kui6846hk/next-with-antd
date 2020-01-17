@@ -1,0 +1,28 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "NextJs + Typescript + Antd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.26.7",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "next": "^9.2.0",
+    "null-loader": "^3.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.5"
+  }
+}
